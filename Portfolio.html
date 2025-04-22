@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio - Mohamed Riyasdeen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 5px 0;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 5px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .button {
+            background: #008CBA;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .button:hover {
+            background: #005f73;
+        }
+        .contact-form {
+            margin-top: 20px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+        .contact-form button {
+            background: #008CBA;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h1 id="about">Mohamed Riyasdeen</h1>
+        <p><strong>Phone:</strong> +91 63799 31169 | <strong>Email:</strong> mailasiriyas2323@gmail.com</p>
+        <a class="button" href="resume.pdf" download>Download Resume</a>
+
+        <h2 id="education">Education</h2>
+        <ul>
+            <li><strong>B.Sc Computer Science</strong> | JAMAL MOHAMED COLLEGE | GPA: 8.5/10 (2020-2023)</li>
+            <li><strong>Class XII</strong> | Punitha Arockia Annai HSS | 59.5% (2020)</li>
+            <li><strong>Class X</strong> | Punitha Arockia Annai HSS | 65% (2018)</li>
+        </ul>
+
+        <h2 id="skills">Technical & Soft Skills</h2>
+        <ul>
+            <li>HTML, CSS, Python, MySQL</li>
+            <li>Microsoft Word, Excel, Visual Studio</li>
+        </ul>
+
+        <h2 id="contact">Contact Me</h2>
+        <div class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </div>
+    </div>
+
+</body>
+</html>
+
